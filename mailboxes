@@ -1,0 +1,16 @@
+mailboxes $HOME/Mail/dmgazelle
+mailboxes $HOME/Mail/mbox
+mailboxes $HOME/Mail/utu
+mailboxes $HOME/Mail/koulu
+mailboxes $HOME/Mail/github
+mailboxes $HOME/Mail/Lists/haskell-cafe
+mailboxes $HOME/Mail/Lists/erlang-questions
+mailboxes $HOME/Mail/Lists/clojure
+mailboxes $HOME/Mail/Lists/facebook
+mailboxes $HOME/Mail/Lists/flightgear
+mailboxes $HOME/Mail/Lists/flightgear-devel
+mailboxes $HOME/Mail/Lists/uzbl-dev
+mailboxes $HOME/Mail/Lists/vim_dev
+
+
+# vim: ft=muttrc

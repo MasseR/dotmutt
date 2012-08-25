@@ -1,0 +1,8 @@
+subscribe haskell-cafe
+subscribe haskell-beginners
+subscribe erlang-questions
+subscribe clojure
+subscribe chicagoboss
+subscribe yesod
+
+# vim: ft=muttrc
