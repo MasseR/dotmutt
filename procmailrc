@@ -1,0 +1,52 @@
+PATH=/bin:/usr/bin:/usr/local/bin
+MAILDIR=$HOME/Mail/
+LOGFILE=$HOME/logs/procmail.log
+SHELL=/bin/sh
+
+:0:
+* ^From: .*@github.com
+$MAILDIR/github/
+
+:0:
+* ^(From|To): .*@kuriero.fi
+$MAILDIR/dmgazelle/
+
+:0:
+* ^(From|To): .*@dmgazelle.com
+$MAILDIR/dmgazelle/
+
+:0:
+* ^X-BeenThere: clojure@googlegroup.com
+$MAILDIR/Lists/clojure/
+
+:0:
+* ^X-BeenThere: haskell-cafe@haskell.org
+$MAILDIR/Lists/haskell-cafe/
+
+:0:
+* ^X-BeenThere: beginners@haskell.org
+$MAILDIR/Lists/haskell-cafe/
+
+:0:
+* ^X-BeenThere: yesodweb@googlegroups.com
+$MAILDIR/Lists/haskell-cafe/
+
+:0:
+* ^X-BeenThere: flightgear-devel@lists.sourceforge.net
+$MAILDIR/Lists/flightgear-devel/
+
+:0:
+* ^X-BeenThere: chicagoboss@googlegroups.com
+$MAILDIR/Lists/erlang-questions/
+
+:0:
+* ^X-BeenThere: erlang-questions@erlang.org
+$MAILDIR/Lists/erlang-questions/
+
+:0:
+* ^X-BeenThere: vim_dev@googlegroups.com
+$MAILDIR/Lists/vim_dev/
+
+# Catch-all rule
+:0
+$MAILDIR/mbox/
