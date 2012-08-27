@@ -1,6 +1,6 @@
 PATH=/bin:/usr/bin:/usr/local/bin
 MAILDIR=$HOME/Mail/
-LOGFILE=$HOME/logs/procmail.log
+# LOGFILE=$HOME/logs/procmail.log
 SHELL=/bin/sh
 
 :0:
@@ -16,7 +16,7 @@ $MAILDIR/dmgazelle/
 $MAILDIR/dmgazelle/
 
 :0:
-* ^X-BeenThere: clojure@googlegroup.com
+* ^X-BeenThere: clojure@googlegroups.com
 $MAILDIR/Lists/clojure/
 
 :0:
