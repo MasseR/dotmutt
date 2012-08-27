@@ -6,6 +6,9 @@ set implicit_autoview=yes
 
 set crypt_autosign=yes
 
+set delete=yes
+set trash=$HOME/Mail/trash
+
 # File declares authentication
 source $HOME/.mutt/auth
 set smtp_url = smtps://$my_user:$my_pass@smtp.gmail.com
