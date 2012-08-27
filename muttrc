@@ -1,5 +1,6 @@
 set mbox_type=Maildir
 set spoolfile=$HOME/Mail/mbox
+set from="Mats Rauhala <mats.rauhala@iki.fi>"
 
 # File declares authentication
 source $HOME/.mutt/auth
