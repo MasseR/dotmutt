@@ -1,0 +1,19 @@
+# Catch-all
+# I'm using the gmail address here because most of my  mailing lists are made with gmail account
+folder-hook .* "set from=\"Mats Rauhala <mats.rauhala@gmail.com>\""
+folder-hook .* "set signature=$HOME/.mutt/signatures/otr.txt"
+
+# School
+folder-hook utu "set from=\"Mats Rauhala <mats.rauhala@utu.fi>\""
+folder-hook utu "set signature=$HOME/.mutt/signatures/utu.txt"
+
+# Work
+folder-hook dmgazelle "set from=\"Mats Rauhala <mats@dmgazelle.com>\""
+folder-hook dmgazelle "set signature=$HOME/.mutt/signatures/work.txt"
+
+# Mbox
+folder-hook mbox "set from=\"Mats Rauhala <mats.rauhala@iki.fi>\""
+folder-hook mbox "set signature=$HOME/.mutt/signatures/otr.txt"
+
+
+# vim: ft=muttrc
