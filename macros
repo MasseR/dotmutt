@@ -1,0 +1,7 @@
+# Mark all as read
+macro index ,rr "T~U<enter>;WN"
+
+# Show only new messages
+macro index ,n "l~U<enter>"
+
+# vim: ft=muttrc

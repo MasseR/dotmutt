@@ -19,3 +19,4 @@ set ssl_force_tls = yes
 source $HOME/.mutt/mailboxes
 source $HOME/.mutt/subscriptions
 source $HOME/.mutt/folder-hooks
+source $HOME/.mutt/macros
