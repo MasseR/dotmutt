@@ -6,7 +6,9 @@ alternative_order text/enriched text/plain text application/postscript image/*
 
 set implicit_autoview=yes
 
+# Pgp thingies
 set crypt_autosign=yes
+set pgp_use_gpg_agent = yes
 
 set markers = no
 
