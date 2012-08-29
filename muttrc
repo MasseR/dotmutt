@@ -2,6 +2,8 @@ set mbox_type=Maildir
 set spoolfile=$HOME/Mail/mbox
 set from="Mats Rauhala <mats.rauhala@iki.fi>"
 
+alternative_order text/enriched text/plain text application/postscript image/*
+
 set implicit_autoview=yes
 
 set crypt_autosign=yes
