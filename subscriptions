@@ -1,5 +1,6 @@
 subscribe haskell-cafe
-subscribe haskell-beginners
+subscribe beginners
+subscribe haskell-platform
 subscribe erlang-questions
 subscribe clojure
 subscribe chicagoboss
