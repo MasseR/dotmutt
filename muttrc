@@ -8,6 +8,8 @@ set implicit_autoview=yes
 
 set crypt_autosign=yes
 
+set markers = no
+
 set delete=yes
 set trash=$HOME/Mail/trash
 
